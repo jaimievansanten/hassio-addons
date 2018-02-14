@@ -1,8 +1,8 @@
 {
     "name": "Datadog Agent",
-    "version": "12.5.5220",
+    "version": "agent_only",
     "slug": "datadog-agent",
-    "image": "datadog/docker-dd-agent",
+    "image": "maauso/dd-agent-arm-rpi",
     "description": "Agent to stream your Home Assistant metrics to Datadog",
     "url": "https://github.com/jaimievansanten/hassio-addons/tree/master/datadog-agent",
     "startup": "system",    
