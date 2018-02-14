@@ -8,6 +8,7 @@
     "startup": "system",    
     "boot": "auto",
     "ports": {"8125/udp": 8125},
+    "host_network": true,
     "environment": {
         "SD_BACKEND": "docker",
         "NON_LOCAL_TRAFFIC": false
