@@ -1,5 +1,5 @@
 {
-    "name": "Hass.io Add-ons",
-    "url": "https://github.com/jaimievansanten/hassio-addons",
-    "maintainer": "Jaimie van Santen <rhoxus@gmail.com>"
-  }
+  "name": "Collection of Home Assistant Addons",
+  "url": "https://github.com/jaimievansanten/hassio-addons",
+  "maintainer": "Jaimie van Santen <rhoxus@gmail.com>"
+}

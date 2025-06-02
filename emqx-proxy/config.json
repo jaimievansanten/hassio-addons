@@ -1,0 +1,36 @@
+{
+    "name": "EMQX Proxy",
+    "version": "0.1.0",
+    "slug": "emqx_proxy",
+    "description": "Proxy for externally running EMQX",
+    "url": "https://github.com/jaimievansanten/hassio-addons/tree/master/emqx-proxy",
+    "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+    ],
+    "boot": "auto",
+    "init": true,
+    "true": true,
+    "ingress": true,
+    "timeout": 30,
+    "panel_icon": "mdi:pipe",
+    "map": [
+        "config:ro"
+    ],
+    "ports": {
+        "18083/tcp": null
+    },
+    "ports_description": {
+        "18083/tcp": "EMQX WebUI Port"
+    },
+    "options": {
+        "server": null
+    },
+    "schema": {
+        "server": "url"
+    },
+    "image": "ghcr.io/jaimievansanten/emqx-proxy-{arch}"
+}
