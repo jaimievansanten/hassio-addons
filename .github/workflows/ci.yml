@@ -64,14 +64,6 @@ jobs:
           username: rhoxus
           password: ${{ secrets.GH_PAT }}
 
-    - name: Prepare data folder
-      run: |
-        if [ "${{ matrix.addon }}" != "emqx-proxy" ]; then
-          cp -R common/rootfs ${{ matrix.addon }}
-          cp common/Dockerfile ${{ matrix.addon }}
-        fi
-        cp common/build.yaml ${{ matrix.addon }}
-
     - name: Build
       uses: home-assistant/builder@master
       # Note: if running without `--test`, image is pushed to docker.io
