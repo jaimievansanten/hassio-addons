@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Zigbee2MQTT Proxy
+# Home Assistant Add-on: EMQX Proxy
 
 ⚠️ This add-on does not contain EMQX ⚠️
 
