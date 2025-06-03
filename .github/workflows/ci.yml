@@ -61,7 +61,7 @@ jobs:
       uses: docker/login-action@v3
       with:
           registry: ghcr.io
-          username: rhoxus
+          username: jaimievansanten
           password: ${{ secrets.GH_PAT }}
 
     - name: Build
